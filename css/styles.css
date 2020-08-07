@@ -6,3 +6,21 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+/* Formating Hover Effects for Links */
+.nav-link{
+  padding: 2px 0;
+  margin-right: 15px;
+  margin-left: 15px;
+}
+
+.active {
+  border-bottom: white solid; 
+}
+
+a:hover {
+  border-bottom: grey solid;
+}
+
+
+
