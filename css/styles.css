@@ -1,5 +1,5 @@
-/* Backgroun Image Across All Pages */
-html { 
+/* Background Image Across All Pages */
+body { 
   background: url(../img/seachicago.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -22,5 +22,17 @@ a:hover {
   border-bottom: grey solid;
 }
 
+/* Homepage Centered Content */
+#main-name {
+    padding-top: 50vh;
+}
+
+#main-name h1 {
+  font-size: 10vh;
+}
+
+#main-name p {
+  font-size: 2vh;
+}
 
 
