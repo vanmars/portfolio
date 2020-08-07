@@ -1,5 +1,5 @@
-/* Background Image Across All Pages */
-body { 
+/* Background Image for Homepage */
+#body-home { 
   background: url(../img/seachicago.jpeg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -14,11 +14,11 @@ body {
   margin-left: 15px;
 }
 
-.active {
+.nav-item .active {
   border-bottom: white solid; 
 }
 
-a:hover {
+.nav-item a:hover {
   border-bottom: grey solid;
 }
 
