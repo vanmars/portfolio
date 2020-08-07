@@ -13,7 +13,7 @@
   <link href="css/styles.css" rel="stylesheet" type="text/css" media="all">
   <title>About Me</title>
 </head>
-<body>
+<body id="about-body">
   <header>
     <!-- Navigation -->
     <nav class="navbar navbar-dark bg-dark justify-content-around">
@@ -56,11 +56,11 @@
       </a>
     </div>
   </header>
-
+  <br>
   <main>
     <div class="container-fluid">
       <!-- About Me Card -->
-      <div class="card">
+      <div class="card color">
         <div class="card-body">
           <h3 class="card-title">About Me</h3>
           <h6 class="card-subtitle text-muted">Background</h6><br>
@@ -91,14 +91,17 @@
             with a learning sciences background will help me contribute in unique and meaningful ways.</p>
         </div>
       </div>
+      <br>
       <!-- Education Card -->
+      <!-- ***Need to ensure each card is of equal height***-->
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Education</h3>
-          <div class="row">
+          <div class="row logos">
             <div class="col-lg-4">
               <div class="card">
-                <div class="card-body">
+                <img src="img/nu.gif" class="card-img-top" alt="Northwestern logo">
+                <div class="card-body color2">
                   <h3 class="card-title">Northwestern University</h3>
                   <h5 class="card-subtitle">Master of Arts, Learning Sciences</h5>
                   <h6 class="card-subtitle text-muted">2019 - 2020</h6>
@@ -108,7 +111,8 @@
             </div>
             <div class="col-lg-4">
               <div class="card">
-                <div class="card-body">
+                <img src="img/tc.jpg" class="card-img-top" alt="Columbia logo">
+                <div class="card-body color2">
                   <h3 class="card-title">Columbia University</h3>
                   <h5 class="card-subtitle">Master of Arts, Teaching of English</h5>
                   <h6 class="card-subtitle text-muted">2012 - 2014</h6>
@@ -118,7 +122,8 @@
             </div>
             <div class="col col-lg-4">
               <div class="card">
-                <div class="card-body">
+                <img src="img/uw.jpg" class="card-img-top" alt="University of Washington logo">
+                <div class="card-body color2">
                   <h3 class="card-title">University of Washington</h3>
                   <h5 class="card-subtitle">Bachelor or Arts, Business Adminstration</h5>
                   <h5 class="card-subtitle">Bachelor or Arts, English</h5>
@@ -131,14 +136,15 @@
           </div>
         </div>
       </div>
+      <br>
       <!-- Job Experience Card -->
-      <div class="card">
+      <div class="card color" >
         <div class="row no-gutters">
           <div class="col-4">
             <img src="img/profilepicture.jpg" class="card-img" alt="Profile picture from Norfolk Academy" id="job-img">
           </div>
           <div class="col-8">
-            <div class="card-body">
+            <div class="card-body" id="job-text">
               <h3 class="card-title">Job Experience</h3>
               <h5 class="card-subtitle"><em>Teacher</em></h5>
               <h6 class="card-subtitle text-muted"><strong>Norfolk Academy</strong>, Norfolk, VA, 2018 - 2019</h6>
@@ -162,62 +168,44 @@
           </div>
         </div>
       </div>
-      
-
-
-
-
-
+      <br>
       <!-- Interests Card -->
       <div class="card">
         <div class="card-body">
           <h3 class="card-title">Interests</h3>
-          <h6 class="card-subtitle text-muted"></h6>
-          <p class="card-text"></p>
+          <p class="card-text">
+            <ul>
+              <li>Writing: Mostly poetry, but I have ambitions for writing a young adult fantasy novel.</li>
+              <li>Reading . . . kind of goes hand and hand with writing :)</li>
+              <li>Physical Fitness: I was a big athlete in high school (field hockey was my favorite sport), and I continue to enjoy staying active with yoga, pilates, and running outdoors.</li>
+              <li>Cooking and Eating</li>
+              <li>Travel: I have been to Europe and Asia. I would really like to visit Croatia, New Zealand, Peru, and Thailand.</li>
+              <li>Games: Board games, lawn games, organized sports--you name it. I have a competitive and playful spirit, so I have a lot of fun with games!</li>
+              <li>Movies and TV: I love to curl  up on the coach and enjoy a good film or tv series. Really any genre, with the exception of horror, intrigues me.</li>
+            </ul>
+          </p>
         </div>
       </div>
+      <br>
       <!-- Skills Card -->
-      <div class="card">
+      <div class="card color">
         <div class="card-body">
           <h3 class="card-title">Skills</h3>
-          <h6 class="card-subtitle text-muted"></h6>
-          <p class="card-text"></p>
+          <p class="card-text">
+            <ul>
+              <li>Agile Design Process</li>
+              <li>Curriculum and Instruction Design</li>
+              <li>Teaching and Coaching</li>
+              <li>Writing and Editing</li>
+              <li>Technical: HTML, CSS, JavaScript (Basic), Python (Basic), Adobe XD, Adobe Photoshop (Basic), Google Suite</li>
+            </ul>
+          </p>
         </div>
       </div>
-  
-
-    
-    <p></p>
-      
-
-    <hr>
-    <h4>Interests</h4>
-    <ul>
-      <li>Writing: Mostly poetry, but I have ambitions for writing a young adult fantasy novel.</li>
-      <li>Reading . . . kind of goes hand and hand with writing :)</li>
-      <li>Physical Fitness: I was a big athlete in high school (field hockey was my favorite sport), and I continue to enjoy staying active with yoga, pilates, and running outdoors.</li>
-      <li>Cooking and Eating</li>
-      <li>Travel: I have been to Europe and Asia. I would really like to visit Croatia, New Zealand, Peru, and Thailand.</li>
-      <li>Games: Board games, lawn games, organized sports--you name it. I have a competitive and playful spirit, so I have a lot of fun with games!</li>
-      <li>Movies and TV: I love to curl  up on the coach and enjoy a good film or tv series. Really any genre, with the exception of horror, intrigues me.</li>
-    </ul>
-
-    <hr>
-    <h4>Skills</h4>
-    <ul>
-      <li>Agile Design Process</li>
-      <li>Curriculum and Instruction Design</li>
-      <li>Teaching and Coaching</li>
-      <li>Writing and Editing</li>
-      <li>Technical: HTML, CSS, JavaScript (Basic), Python (Basic), Adobe XD, Adobe Photoshop (Basic), Google Suite</li>
-    </ul>
-
   </main>
-  
-
   <footer>
+    <br>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

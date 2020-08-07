@@ -47,6 +47,16 @@
 /***********************/
 /* STYLES FOR ABOUT ME */
 /***********************/
+.color {
+  /* background-color: #eae4f6; */
+  /* background-color: #bac3ec; */
+  /* background-color:#719bab; */
+  background-color: #d6eaf2;
+}
+
+.color2 {
+  background-color: #719bab;
+}
 
 /* Images */
 .carousel-item {
@@ -58,10 +68,13 @@
   height: auto;
 }
 
-/* #job-img {
+#job-text {
   float: right;
-} */
+}
 
+.logos img {
+  height: 30vh;
+}
 
 /***********************/
 /* STYLES FOR PROJECTS */
