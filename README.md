@@ -21,6 +21,7 @@ To View and Work with Code:
 _To-Fix Items_
 * Format for about.html page
 * Format for projects.html page
+* Make center text on homepage responsive for tablet and phone viewports.
 
 ## Support and contact details
 
@@ -35,7 +36,7 @@ _Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns._
 
 MIT License
 
-Copyright (c) [2020] [Vanessa Stewart]
+Copyright (c) 2020 Vanessa Stewart
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
