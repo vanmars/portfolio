@@ -30,49 +30,84 @@
       </ul>
     </nav>
   </header>
-
+  
   <main>
-    <h1>Projects</h1>
-    <h2>Ahoy! A Collaborative Outline Game</h2>
-    <p>Description: Are your students writing grammatically correct and structurally sound essays that, 
-    nevertheless, fall flat? Do they continually select weak evidence and not know why?
-    Are they unsure what aspects of their evidence need more explanation?</p>
-    <p>Ahoy! is a collaborative, outline-intervention game that exposes writers to 
-    readers' reactions before they commit to writing their first draft.</p>
-    <p><em>Languages</em>: HTML, CSS, JavaScript, PHP, Flask</p>
-    <a href="https://vanmars.github.io/cs130-coursework/final_project/client/">GitHub Page</a>
-    <a href="https://github.com/vanmars/cs130-coursework/tree/master/final_project">GitHub Repo</a>
-
-    <h2>Fake Wikipedia Page</h2>
-    <p>Description: Practiced using Bootstrap and CSS to re-style a Wikipedia page</p>
-    <p><em>Languages</em>: HTML, CSS, Boostrap</p>
-    <a href=" https://vanmars.github.io/wiki_homepage/.">GitHub Page</a>
-    <a href="https://github.com/vanmars/wiki_homepage">GitHub Repo</a>
-
-    <h2>Fake Spotify Page</h2>
-    <p>Description: Practiced using HTML and CSS to re-style a Spotify page.</p>
-    <p><em>Languages</em>: HTML and CSS</p>
-    <a href="https://vanmars.github.io/cs130-coursework/hw02/03_spotify/">GitHub Page</a>
-    <a href="https://github.com/vanmars/cs130-coursework/tree/master/hw02/03_spotify">GitHub Repo</a>
-
-    <h2>Interactive Spotify Page</h2>
-    <p>Description: Practiced using JavaScript and REST APIs to search for music 
-    on Spotify Interface</p>
-    <p><em>Languages</em>: JavaScript</p>
-    <a href="https://vanmars.github.io/cs130-coursework/hw04/your_task/">GitHub Page</a>
-    <a href="https://github.com/vanmars/cs130-coursework/tree/master/hw04/your_task">GitHub Repo</a>
-
-    <h2>Photo Carousel</h2>
-    <p>Description: Practiced Using JavaScript to create photo carousel.</p>
-    <p><em>Languages</em>: HTML, CSS, JavaScript</p>
-    <a href="https://vanmars.github.io/cs130-coursework/hw03/">GitHub Page</a>
-    <a href="https://github.com/vanmars/cs130-coursework/tree/master/hw03">GitHub Repo</a>
-
+    <div class="container-fluid">
+  <!-- Featured Content Header -->
+  <!-- Will eventually build out bootstrap featured content for centered title and btn-link to GitHub -->
+  <h1 class ="text-center">Projects</h1>
+  <!-- Project Section, using Bootstrap Grid Cards -->
+  <div class="row row-cols-1 row-cols-md-2">
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ahoy! A Collaborative Outline Game</h5>
+          <p class="card-text">Description: Are your students writing grammatically correct and structurally sound essays that, 
+            nevertheless, fall flat? Do they continually select weak evidence and not know why?
+            Are they unsure what aspects of their evidence need more explanation?</p>
+            <p>Ahoy! is a collaborative, outline-intervention game that exposes writers to 
+            readers' reactions before they commit to writing their first draft.</p>
+            <p class="card-text"><em>Languages</em>: HTML, CSS, JavaScript, PHP, Flask</p>
+            <a  class="card-text" href="https://vanmars.github.io/cs130-coursework/final_project/client/">GitHub Page</a>
+            <a class="card-text" href="https://github.com/vanmars/cs130-coursework/tree/master/final_project">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fake Wikipedia Page</h5>
+          <h2>Fake Wikipedia Page</h2>
+          <p class="card-text">Description: Practiced using Bootstrap and CSS to re-style a Wikipedia page</p>
+          <p class="card-text"><em>Languages</em>: HTML, CSS, Boostrap</p>
+          <a class="card-text" href=" https://vanmars.github.io/wiki_homepage/.">GitHub Page</a>
+          <a class="card-text" href="https://github.com/vanmars/wiki_homepage">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Fake Spotify Page</h5>
+          <p class="card-text">Description: Practiced using HTML and CSS to re-style a Spotify page.</p>
+          <p class="card-text"><em>Languages</em>: HTML and CSS</p>
+          <a class="card-text" href="https://vanmars.github.io/cs130-coursework/hw02/03_spotify/">GitHub Page</a>
+          <a class="card-text" href="https://github.com/vanmars/cs130-coursework/tree/master/hw02/03_spotify">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Interactive Spotify Page</h5>
+          <p class="card-text">Description: Practiced using JavaScript and REST APIs to search for music 
+          on Spotify Interface</p>
+          <p class="card-text"><em>Languages</em>: JavaScript</p>
+          <a class="card-text" href="https://vanmars.github.io/cs130-coursework/hw04/your_task/">GitHub Page</a>
+          <a class="card-text" href="https://github.com/vanmars/cs130-coursework/tree/master/hw04/your_task">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    <div class="col mb-4">
+      <div class="card">
+        <img src="..." class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Photo Carousel</h5>
+          <p class="card-text">Description: Practiced Using JavaScript to create photo carousel.</p>
+          <p class="card-text"><em>Languages</em>: HTML, CSS, JavaScript</p>
+          <a class="card-text" href="https://vanmars.github.io/cs130-coursework/hw03/">GitHub Page</a>
+          <a class="card-text" href="https://github.com/vanmars/cs130-coursework/tree/master/hw03">GitHub Repo</a>
+        </div>
+      </div>
+    </div>
+    </div>
   </main>
-
   <footer>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>

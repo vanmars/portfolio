@@ -55,8 +55,17 @@
 }
 
 .color2 {
-  background-color: #719bab;
+  background-color:white;
 }
+/* 
+#about-body {
+  background-color: black;
+} */
+
+.color4 {
+  background-color:#615D6C;
+}
+
 
 /* Images */
 .carousel-item {
