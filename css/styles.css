@@ -1,11 +1,6 @@
-/* Background Image for Homepage */
-#body-home { 
-  background: url(../img/seachicago.jpeg) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-}
+/************************/
+/* STYLES FOR ALL PAGES */
+/************************/
 
 /* Formating Hover Effects for Links */
 .nav-link{
@@ -22,6 +17,20 @@
   border-bottom: grey solid;
 }
 
+/***********************/
+/* STYLES FOR HOMEPAGE */
+/***********************/
+
+/* Background Image for Homepage */
+#body-home { 
+  background: url(../img/seachicago.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+
 /* Homepage Centered Content */
 #main-name {
     padding-top: 50vh;
@@ -35,4 +44,16 @@
   font-size: 2vh;
 }
 
+/***********************/
+/* STYLES FOR ABOUT ME */
+/***********************/
 
+/* Images */
+#about-img {
+  width: 50vw;
+  float: right;
+}
+
+/***********************/
+/* STYLES FOR PROJECTS */
+/***********************/
