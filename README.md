@@ -19,9 +19,17 @@ To View and Work with Code:
 ## Known Bugs
 
 _To-Fix Items_
-* Format for about.html page
-* Format for projects.html page
+Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
+
+About Me Page
+* Add general formating
+* (Carousel) Need to figure out how to best re-size responsive images on carousel.
+* (Carousel)Need to add more images to carousel eventually
+* (Carousel) Could also add in caption to each slide
+
+Projects Page
+* Add general formating
 
 ## Support and contact details
 

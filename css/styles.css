@@ -49,10 +49,15 @@
 /***********************/
 
 /* Images */
-#about-img {
-  width: 50vw;
-  float: right;
+.carousel-item {
+  height: 50vh;
 }
+
+.carousel-item img {
+  width: 100%;
+  height: auto;
+}
+
 
 /***********************/
 /* STYLES FOR PROJECTS */
