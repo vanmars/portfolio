@@ -23,13 +23,21 @@ Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
 
 About Me Page
-* Add general formating
 * (Carousel) Need to figure out how to best re-size responsive images on carousel.
 * (Carousel)Need to add more images to carousel eventually
 * (Carousel) Could also add in caption to each slide
+* Add images to 'Skills' and 'Interests' sections
+* Play around with background colors of cards
 
 Projects Page
-* Add general formating
+* Make 'Projects' header special Bootstrap Featured content, with a button leading to GitHub Repos page
+* Make cards smaller and of equal height
+* Improve image quality/resizing
+* Tweak font-sizes on cards
+* Turn GitHub Repo and Pages links into buttons
+
+Overall
+* Check responsive of all pages for all screen sizes
 
 ## Support and contact details
 
