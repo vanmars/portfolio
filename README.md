@@ -31,10 +31,8 @@ About Me Page
 * Play around with background colors of cards
 
 Projects Page
-* Make cards smaller and of equal height
-* Improve image quality/resizing
-* Tweak font-sizes on cards
-* Turn GitHub Repo and Pages links into buttons
+* Improve thumbnail image quality
+* Project buttons need responsive margins when scaled down to smaller viewports
 
 Overall
 * Check responsive of all pages for all screen sizes
