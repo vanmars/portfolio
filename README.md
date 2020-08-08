@@ -22,13 +22,12 @@ _To-Fix Items_
 
 Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
+* Needs footer with contact info
 
 About Me Page
 * (Carousel) Need to figure out how to best re-size responsive images on carousel.
 * (Carousel) Need to add more images to carousel
-* (Carousel) Could also add in caption to each slide
-* Add images to 'Skills' and 'Interests' sections
-* Play around with background colors of cards
+* Images on the rest of the page could use re-sizing tweaks
 
 Projects Page
 * Improve thumbnail image quality
