@@ -19,18 +19,18 @@ To View and Work with Code:
 ## Known Bugs
 
 _To-Fix Items_
+
 Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
 
 About Me Page
 * (Carousel) Need to figure out how to best re-size responsive images on carousel.
-* (Carousel)Need to add more images to carousel eventually
+* (Carousel) Need to add more images to carousel
 * (Carousel) Could also add in caption to each slide
 * Add images to 'Skills' and 'Interests' sections
 * Play around with background colors of cards
 
 Projects Page
-* Make 'Projects' header special Bootstrap Featured content, with a button leading to GitHub Repos page
 * Make cards smaller and of equal height
 * Improve image quality/resizing
 * Tweak font-sizes on cards
@@ -46,7 +46,7 @@ _Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns._
 ## Technologies Used
 
 * HTML/CSS
-* Bootstrap
+* Bootstrap (with CSS and JavaScript files)
 
 ### License
 
