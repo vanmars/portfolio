@@ -39,7 +39,7 @@ Projects Page
 Overall
 * Check responsive of all pages for all screen sizes
 
-## Support and contact details
+## Support and Contact Details
 
 _Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns._
 
