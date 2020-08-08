@@ -11,7 +11,7 @@
   <header>
     <!-- Navigation -->
     <nav class="navbar navbar-dark bg-dark justify-content-around">
-      <span class="navbar-brand mb-0 h1">Portfolio</span>
+      <span class="navbar-brand mb-0 h1">Vanessa M. Stewart</span>
       <ul class="nav">
         <li class="nav-item">
           <a class="nav-link text-muted" href="index.html">Home</a>
@@ -27,7 +27,7 @@
     <!-- Carousel -->
       <!-- ** Need to figure out how to best re-size responsive images on carousel -->
       <!-- *** Need to add more images to carousel -->
-      <!-- *** Could also add in caption to each slide -->
+      <!-- *** Could also add in caption to each slide? -->
     <div id="about-carousel" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="2000">
@@ -48,13 +48,43 @@
     </div>
   </header>
   <br>
+
   <main>
     <div class="container">
-      <!-- About Me Card -->
-      <div class="card color">
+      <!-- Jumbotron -->
+      <div class="jumbotron">
+        <h1 class="display-4">About Me</h1>
+        <p class="lead">I am passionate about building tools to engage students and teachers in social, relevant, and playful learning experiences.</p>
+        <hr class="my-4">
+        <p>Connect with me on social media!</p>
+        <a class="btn btn-info" href="https://www.linkedin.com/in/vanessa-m-stewart/" role="button">LinkedIn</a>
+      </div>
+      <!-- Featurette -->
+      <div class="card mb-3 border-0" style="max-width: 540px;">
+        <div class="row no-gutters">
+          <div class="col-md-4">
+            <img src="img/Northwestern.jpg" class="card-img" alt="Profile picture from Northwestern University">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h4 class="card-subtitle text-muted"> A little background . . .</h4>
+              <br>
+              <p class="card-text">I believe writing helps us understand ourselves and our world, our values and our 
+                purpose. That understanding enables us to become agentive selves capable of pursuing a 
+                well-lived life.</p>
+              <p class="card-text">For five years, I had the gift of sharing the power of writing and reading with middle
+                and high school English students. I loved it! But there was something missing . . .</p>
+              <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- About Me Cont. Card -->
+      <div class="card bg-rgba(0, 0, 0, 0.03)">
         <div class="card-body">
           <h3 class="card-title">About Me</h3>
-          <h6 class="card-subtitle text-muted">Background</h6><br>
+          <h6 class="card-subtitle text-muted"> A Little background</h6><br>
           <p class="card-text">I believe writing helps us understand ourselves and our world, our values and our 
             purpose, and in so doing enables us to become agentive selves capable of pursuing a 
             well-lived life.</p>
@@ -83,6 +113,10 @@
         </div>
       </div>
       <br>
+
+
+
+
       <!-- Education Card -->
       <!-- *** Need to ensure each card is of equal height. Check Bootstrap documentation.-->
       
