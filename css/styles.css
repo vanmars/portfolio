@@ -83,3 +83,11 @@
 #featured{
   background-color: rgba(0, 0, 0, 0.03);
 }
+
+#projects-body { 
+  background: url(../img/beach.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
