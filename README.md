@@ -22,19 +22,14 @@ _To-Fix Items_
 
 Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
-* Needs footer with contact info
+* Add footer with contact info
 
 About Me Page
-* (Carousel) Need to figure out how to best re-size responsive images on carousel.
-* (Carousel) Need to add more images to carousel
-* Images on the rest of the page could use re-sizing tweaks
+* (Carousel) Add more images to carousel
 
 Projects Page
-* Improve thumbnail image quality
+* Resize thumbnail on 'Language Suggester" project
 * Project buttons need responsive margins when scaled down to smaller viewports
-
-Overall
-* Check responsive of all pages for all screen sizes
 
 ## Support and Contact Details
 
@@ -42,8 +37,8 @@ _Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns._
 
 ## Technologies Used
 
-* HTML/CSS
-* Bootstrap (with CSS and JavaScript files)
+* HTML
+* CSS/Bootstrap
 
 ### License
 
