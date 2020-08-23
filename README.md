@@ -1,6 +1,7 @@
-# _Programming Portfolio Website for Vanessa Stewart_
+# _Programming Portfolio for Vanessa Stewart_
 
-#### _Bootstrap Portfolio Website, 07 August 2020_
+#### _A Bootstrap styled website to display porgramming work_
+_07 August 2020_
 
 #### By _**Vanessa Stewart**_
 
@@ -22,7 +23,6 @@ _To-Fix Items_
 
 Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
-* Add footer with contact info
 
 About Me Page
 * (Carousel) Add more images to carousel
@@ -33,16 +33,15 @@ Projects Page
 
 ## Support and Contact Details
 
-_Email vstewart1213@gmail.com concerning issues, questions, ideas, or concerns._
+_Email vanmariestewart@gmail.com concerning issues, questions, or ideas._
 
 ## Technologies Used
 
-* HTML
+* HTML5
 * CSS/Bootstrap
+* JavaScript/jQuery
 
 ### License
-
-MIT License
 
 Copyright (c) 2020 Vanessa Stewart
 
