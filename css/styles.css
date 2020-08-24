@@ -17,6 +17,10 @@
   border-bottom: grey solid;
 }
 
+.jumbotron, .card-footer {
+  background-color: #e6d5f5;
+}
+
 /***********************/
 /* STYLES FOR HOMEPAGE */
 /***********************/
@@ -24,6 +28,14 @@
 /* Background Image for Homepage */
 #body-home { 
   background: url(../img/seachicago.jpeg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#blog-home {
+  background: url(../img/rose.JPG) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -90,4 +102,12 @@
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+/*******************/
+/* STYLES FOR Blog */
+/*******************/
+
+#blog-header {
+  background-color: #d6eaf2;
 }

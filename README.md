@@ -26,6 +26,7 @@ Home Page
 
 About Me Page
 * (Carousel) Add more images to carousel
+* Interests and Skills cards need to be resized for smaller viewports
 
 Projects Page
 * Resize thumbnail on 'Language Suggester" project
