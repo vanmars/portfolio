@@ -25,12 +25,7 @@ Home Page
 * Make center text on homepage responsive for tablet and phone viewports.
 
 About Me Page
-* (Carousel) Add more images to carousel
 * Interests and Skills cards need to be resized for smaller viewports
-
-Projects Page
-* Resize thumbnail on 'Language Suggester" project
-* Project buttons need responsive margins when scaled down to smaller viewports
 
 ## Support and Contact Details
 
