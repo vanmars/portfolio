@@ -17,8 +17,22 @@
   border-bottom: grey solid;
 }
 
+/* Jumbotron Background */
 .jumbotron, .card-footer {
   background-color: #e6d5f5;
+}
+
+/* Fonts */
+.underline {
+  text-decoration: underline;
+}
+
+.smaller-text {
+  font-size: 14px;
+}
+
+.smallest-text {
+  font-size: 10px
 }
 
 /***********************/
@@ -112,12 +126,7 @@
   background-color: #d6eaf2;
 }
 
-.smaller-text {
-  font-size: 14px;
-}
 
-.smallest-text {
-  font-size: 10px
-}
+
 
 
