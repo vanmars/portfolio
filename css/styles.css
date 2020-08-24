@@ -105,9 +105,19 @@
 }
 
 /*******************/
-/* STYLES FOR Blog */
+/* STYLES FOR BLOG */
 /*******************/
 
 #blog-header {
   background-color: #d6eaf2;
 }
+
+.smaller-text {
+  font-size: 14px;
+}
+
+.smallest-text {
+  font-size: 10px
+}
+
+
