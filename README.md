@@ -26,6 +26,10 @@ Home Page
 
 About Me Page
 * Interests and Skills cards need to be resized for smaller viewports
+* Fix images that fail to load
+
+Blog Page
+* Fix background-image that fails to load
 
 ## Support and Contact Details
 
