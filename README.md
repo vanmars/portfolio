@@ -31,6 +31,9 @@ About Me Page
 Blog Page
 * Fix background-image that fails to load
 
+Projects Page
+* A few images breaking
+
 ## Support and Contact Details
 
 _Email vanmariestewart@gmail.com concerning issues, questions, or ideas._
