@@ -5,6 +5,7 @@ _07 August 2020_
 
 #### By _**Vanessa Stewart**_
 
+<img src='./img/portfolio_splash.png'>
 ## Description
 
 _This is a portfolio website with a landing, about me, projects, and blog page. Its intent is to share programming work completed by Vanessa Stewart with interested parties on the web._
