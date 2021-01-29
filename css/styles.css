@@ -118,6 +118,10 @@
   background-size: cover;
 }
 
+#projects-body .card-img-top {
+  height: 45%;
+}
+
 /*******************/
 /* STYLES FOR BLOG */
 /*******************/
